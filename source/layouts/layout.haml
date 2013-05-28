@@ -9,7 +9,7 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title || "ZURB Foundation"
+    %title= data.page.title || "AntiochCollege.org Documentation"
     / Included CSS Files
     = stylesheet_link_tag "app"
     = javascript_include_tag "foundation/modernizr.foundation"
@@ -17,9 +17,20 @@
   %body{:class => page_classes}
     .row
       .twelve.columns
-        %h2 Welcome to Foundation on Middleman
-        %p This is version 3.2.5.
+        %h1=link_to "AntiochCollege.org Documentation", "/"
         %hr
-    = yield
+        .large-9{:class => "columns", :role=> "content"}
+          = yield
+        %aside{:class => "large-3 columns"}
+          %ul
+            %li=link_to "Account", "/account"
+            %li=link_to "Content", "/content"
+            %li=link_to "Navigation (menu)", "/navigation"
+            %li=link_to "Markdown", "/markdown"
+            %li=link_to "Drupal", "/drupal"
+            %li=link_to "Advanced", "/advanced"
+
+
+
     / Application Javascript, safe to override
     = javascript_include_tag "app"
