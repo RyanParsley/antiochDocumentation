@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8] -->
+<html lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8' />
+    <!-- Set the viewport width to device width for mobile -->
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <title>AntiochCollege.org Documentation</title>
+    <!-- Included CSS Files -->
+    <link href="/stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="/javascripts/foundation/modernizr.foundation.js" type="text/javascript"></script>
+  </head>
+  <body class='navigation navigation_index'>
+    <div class='row'>
+      <h1><a href="/">AntiochCollege.org Documentation</a></h1>
+      <hr />
+      <div class='columns nine' role='content'>
+        <h1 id='navigation'>Navigation</h1>
+        
+        <p>For the most part, any given Basic Page or Webform is responsible for whether and where it shows up in the sites navigation. When you <a href='http://antiochcollege.org/node/add'>Add content</a> or edit existing content, there is a section on the bottom of the page marked &#8220;Menu settings&#8221; if you are able to adjust this setting.</p>
+        
+        <h2 id='not_all_content_gets_a_menu'>Not all content gets a menu</h2>
+        
+        <p>Types of content that tend to show up in large lists like events or blog posts do not need to be assigned menu settings. Drupal is smarte enough to create the navigation for these types for you.</p>
+      </div>
+      <aside class='three columns'>
+        <h1>Categories</h1>
+        <ul class='side-nav'>
+          <li><a href="/account">Account</a></li>
+          <li><a href="/content">Content</a></li>
+          <li><a href="/navigation">Navigation (menu)</a></li>
+          <li><a href="/advanced">Further Reading</a></li>
+        </ul>
+      </aside>
+    </div>
+    <!-- Application Javascript, safe to override -->
+    <script src="/javascripts/app.js" type="text/javascript"></script>
+  </body>
+</html>
