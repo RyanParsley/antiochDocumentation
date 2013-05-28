@@ -1,2 +1,9 @@
-# Super easy to get started
-No need for the markdown tag or indentation when I do it this way.
+# General Account Information
+All faculty and staff members that are found on the
+[direcory](http://antiochcollege.org/college-directory) already
+have an account set up. All you need to do is visit the [sign
+in](http://antiochcollege.org/user) page. If you have not set a password yet
+or forget your password you can reset it yourself by visiting the
+[password recovery](http://antiochcollege.org/user/password) page.
+
+

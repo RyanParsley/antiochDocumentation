@@ -1,4 +1,7 @@
 activate :livereload
+activate :deploy do |deploy|
+  deploy.method = :git
+end
 ###
 # Compass
 ###

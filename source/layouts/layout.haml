@@ -13,24 +13,21 @@
     / Included CSS Files
     = stylesheet_link_tag "app"
     = javascript_include_tag "foundation/modernizr.foundation"
-    
+
   %body{:class => page_classes}
     .row
-      .twelve.columns
-        %h1=link_to "AntiochCollege.org Documentation", "/"
-        %hr
-        .large-9{:class => "columns", :role=> "content"}
-          = yield
-        %aside{:class => "large-3 columns"}
-          %ul
-            %li=link_to "Account", "/account"
-            %li=link_to "Content", "/content"
-            %li=link_to "Navigation (menu)", "/navigation"
-            %li=link_to "Markdown", "/markdown"
-            %li=link_to "Drupal", "/drupal"
-            %li=link_to "Advanced", "/advanced"
+      %h1=link_to "AntiochCollege.org Documentation", "/"
+      %hr
 
-
+      .nine{:class => "columns", :role=> "content"}
+        = yield
+      %aside{:class => "three columns"}
+        %h1 Categories
+        %ul.side-nav
+          %li=link_to "Account", "/account"
+          %li=link_to "Content", "/content"
+          %li=link_to "Navigation (menu)", "/navigation"
+          %li=link_to "Further Reading", "/advanced"
 
     / Application Javascript, safe to override
     = javascript_include_tag "app"
