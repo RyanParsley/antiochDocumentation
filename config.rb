@@ -67,7 +67,7 @@ configure :build do
 
   # Use relative URLs
    activate :relative_assets
-   activate :directory_indexes
+  #activate :directory_indexes
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
