@@ -1,4 +1,4 @@
-# Creating a Facutly Profile
+# Creating a Faculty Profile
 
 ## Create or add a new user
 Make sure the "faculty" Role is checked and make note of the number in the url. This number is the "User Id".
