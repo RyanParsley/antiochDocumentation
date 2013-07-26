@@ -19,9 +19,9 @@
       %h1=link_to "AntiochCollege.org Documentation", "/index.html"
       %hr
 
-      .large-9{:class => "columns", :role=> "content"}
+      .large-8{:class => "columns", :role=> "content"}
         = yield
-      %aside{:class => "large-3 columns"}
+      %aside{:class => "large-3 columns large-offset-1"}
         %h2 Categories
         %ul.side-nav
           %li=link_to "Account", "/account", :class => "#{active?('account')}"
