@@ -1,4 +1,4 @@
-# Documentation Created for Antioch College
+# Documentation for AntiochCollege.org
 
 This documentation is powered by Middleman with style help from ZURB
 Foundation. It's purpose is to document the customized Drupal site that
