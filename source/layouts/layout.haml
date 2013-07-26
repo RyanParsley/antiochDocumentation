@@ -24,14 +24,14 @@
       %aside{:class => "large-3 columns"}
         %h2 Categories
         %ul.side-nav
-          %li=link_to "Account", "/account"
+          %li=link_to "Account", "/account", :class => "#{active?('account')}"
           %li
-            =link_to "Content", "/content"
+            =link_to "Content", "/content", :class => "#{active?('content')}"
             %ul
-              %li=link_to "Course Offering", "content/course_offering.html"
-          %li=link_to "Navigation (menu)", "/navigation"
-          %li=link_to "Further Reading", "/advanced"
-          %li=link_to "Faculty Profiles", "/facultyProfiles"
+              %li=link_to "Course Offering", "content/course_offering.html", :class => "#{active?('course_offering')}"
+          %li=link_to "Navigation (menu)", "/navigation", :class => "#{active?('navigation')}"
+          %li=link_to "Further Reading", "/advanced", :class => "#{active?('advanced')}"
+          %li=link_to "Faculty Profiles", "/facultyProfiles", :class => "#{active?('facultyProfiles')}"
 
     / Application Javascript, safe to override
     = javascript_include_tag "app"

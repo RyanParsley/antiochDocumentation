@@ -50,3 +50,14 @@
 // @import "foundation/components/modules/mqueries";
 
 aside h2{ font-size:1em;}
+.side-nav a {
+  padding-left:.5em;
+  padding-right:.5em;
+}
+.side-nav li li{
+  margin-left:.75em;
+}
+.side-nav a.active{
+  font-weight:bold;
+  background:#efefef;
+}
