@@ -1,6 +1,5 @@
 require "./lib/lil_helpers"
 helpers LilHelpers
-
 activate :livereload
 activate :deploy do |deploy|
   deploy.method = :git
