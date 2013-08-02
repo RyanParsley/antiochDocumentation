@@ -4,7 +4,7 @@ All faculty and staff members that are found on the [directory](http://antiochco
 
 ## Sign In
 
-All you need to do is visit the [sign in](http://antiochcollege.org/user) page. Use your antioch email address.
+Use your antioch email address on this [sign in](http://antiochcollege.org/user) page. 
 
 ## Password Recovery
 
