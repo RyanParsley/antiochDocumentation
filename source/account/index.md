@@ -2,8 +2,11 @@
 
 All faculty and staff members that are found on the
 [direcory](http://antiochcollege.org/college-directory) already
-have an account set up. All you need to do is visit the [sign
-in](http://antiochcollege.org/user) page. 
+have an account set up. 
+
+## Sign In
+
+All you need to do is visit the [sign in](http://antiochcollege.org/user) page. 
 
 ## Password Recovery
 
