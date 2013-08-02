@@ -1,4 +1,4 @@
-# General Account Information
+# Account Information
 
 All faculty and staff members that are found on the [direcory](http://antiochcollege.org/college-directory) already have an account set up. 
 
