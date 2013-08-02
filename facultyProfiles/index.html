@@ -13,23 +13,29 @@
     <link href="../stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
     <script src="../javascripts/foundation/modernizr.foundation.js" type="text/javascript"></script>
   </head>
-  <body class='account account_index'>
+  <body class='facultyProfiles facultyProfiles_index'>
     <div class='row'>
       <h1><a href="../">AntiochCollege.org Documentation</a></h1>
       <hr>
       <div class='columns large-8' role='content'>
-        <h1 id="general-account-information">General Account Information</h1>
-        <p>All faculty and staff members that are found on the
-        <a href="http://antiochcollege.org/college-directory">direcory</a> already
-        have an account set up. All you need to do is visit the <a href="http://antiochcollege.org/user">sign
-        in</a> page. If you have not set a password yet
-        or forget your password you can reset it yourself by visiting the
-        <a href="http://antiochcollege.org/user/password">password recovery</a> page.</p>
+        <h1 id="creating-a-faculty-profile">Creating a Faculty Profile</h1>
+        
+        <h2 id="create-or-add-a-new-user">Create or add a new user</h2>
+        <p>Make sure the "faculty" Role is checked and make note of the number in the url. This number is the "User Id".</p>
+        
+        <p><img src="../images/userID.png" alt="Screenshot of user id" /></p>
+        
+        <h2 id="create-a-new-faculty-profile">Create a new faculty profile</h2>
+        <p>Visit http://antiochCollege.org/academics/faculty/[user id]/edit. Input informations and click save.</p>
+        
+        <h2 id="if-both-first-and-last-name-do-not-appear">If both first and last name do not appear</h2>
+        <p>Edit the user's profile http://antiochrelaunch.dev/user/[user id]/edit/main and save it.
+        Edit the user's profile http://antiochrelaunch.dev/academics/faculty/[user id]/edit and save it.</p>
       </div>
       <aside class='large-3 columns large-offset-1'>
         <h2>Categories</h2>
         <ul class='side-nav'>
-          <li><a class="active" href="/account">Account</a></li>
+          <li><a class="" href="/account">Account</a></li>
           <li>
             <a class="" href="/content">Content</a>
             <ul>
@@ -39,7 +45,7 @@
           </li>
           <li><a class="" href="/navigation">Navigation (menu)</a></li>
           <li><a class="" href="/advanced">Further Reading</a></li>
-          <li><a class="" href="/facultyProfiles">Faculty Profiles</a></li>
+          <li><a class="active" href="/facultyProfiles">Faculty Profiles</a></li>
         </ul>
       </aside>
     </div>

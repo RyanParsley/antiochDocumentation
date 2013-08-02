@@ -5,9 +5,9 @@
 <html lang='en'>
   <!-- <![endif] -->
   <head>
-    <meta charset='utf-8' />
+    <meta charset='utf-8'>
     <!-- Set the viewport width to device width for mobile -->
-    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
     <title>AntiochCollege.org Documentation</title>
     <!-- Included CSS Files -->
     <link href="../stylesheets/app.css" media="screen" rel="stylesheet" type="text/css" />
@@ -16,23 +16,34 @@
   <body class='navigation navigation_index'>
     <div class='row'>
       <h1><a href="../">AntiochCollege.org Documentation</a></h1>
-      <hr />
-      <div class='columns nine' role='content'>
-        <h1 id='navigation'>Navigation</h1>
+      <hr>
+      <div class='columns large-8' role='content'>
+        <h1 id="navigation">Navigation</h1>
+        <p>For the most part, any given Basic Page or Webform is responsible for whether
+        and where it shows up in the sites navigation. When you <a href="http://antiochcollege.org/node/add">Add
+        content</a> or edit existing content,
+        there is a section on the bottom of the page marked "Menu settings" if
+        you are able to adjust this setting.</p>
         
-        <p>For the most part, any given Basic Page or Webform is responsible for whether and where it shows up in the sites navigation. When you <a href='http://antiochcollege.org/node/add'>Add content</a> or edit existing content, there is a section on the bottom of the page marked &#8220;Menu settings&#8221; if you are able to adjust this setting.</p>
-        
-        <h2 id='not_all_content_gets_a_menu'>Not all content gets a menu</h2>
-        
-        <p>Types of content that tend to show up in large lists like events or blog posts do not need to be assigned menu settings. Drupal is smarte enough to create the navigation for these types for you.</p>
+        <h2 id="not-all-content-gets-a-menu">Not all content gets a menu</h2>
+        <p>Types of content that tend to show up in large lists like events or blog
+        posts do not need to be assigned menu settings. Drupal is smarte enough
+        to create the navigation for these types for you.</p>
       </div>
-      <aside class='three columns'>
-        <h1>Categories</h1>
+      <aside class='large-3 columns large-offset-1'>
+        <h2>Categories</h2>
         <ul class='side-nav'>
-          <li><a href="/account">Account</a></li>
-          <li><a href="/content">Content</a></li>
-          <li><a href="/navigation">Navigation (menu)</a></li>
-          <li><a href="/advanced">Further Reading</a></li>
+          <li><a class="" href="/account">Account</a></li>
+          <li>
+            <a class="" href="/content">Content</a>
+            <ul>
+              <li><a class="" href="content/course_offering.html">Course Offering</a></li>
+              <li><a class="" href="content/electronic_resources.html">Electronic Resources</a></li>
+            </ul>
+          </li>
+          <li><a class="active" href="/navigation">Navigation (menu)</a></li>
+          <li><a class="" href="/advanced">Further Reading</a></li>
+          <li><a class="" href="/facultyProfiles">Faculty Profiles</a></li>
         </ul>
       </aside>
     </div>

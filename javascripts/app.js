@@ -14652,10 +14652,8 @@ contentLoaded(win, function () {
 
 }(jQuery, this));
 (function() {
-
   (function($, window, undefined_) {
     "use strict";
-
     var $doc, Modernizr;
     $doc = $(document);
     Modernizr = window.Modernizr;
