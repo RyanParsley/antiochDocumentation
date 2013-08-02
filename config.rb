@@ -69,7 +69,7 @@ configure :build do
 
   # Use relative URLs
    activate :relative_assets
-   enable :relative_assets, true
+   set :relative_assets, true
   #activate :directory_indexes
 
   # Compress PNGs after build
