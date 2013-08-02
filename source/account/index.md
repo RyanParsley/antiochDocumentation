@@ -15,4 +15,4 @@ or forget your password you can reset it yourself by visiting the
 
 ## Don't have an account?
 
-Send me an email [rparsley at antiochcollege dot org](mailto:rparsley@antiochcollege.org) and I'll get you set up right away.
+Send an email to [rparsley at antiochcollege dot org](mailto:rparsley@antiochcollege.org) and I'll get you set up right away.
