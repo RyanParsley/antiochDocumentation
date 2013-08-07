@@ -17,9 +17,8 @@ documented by the guy who invented it.
 >millions of websites and applications. It’s built, used, and supported
 >by an active and diverse community of people around the world."
 > &mdash;[Drupal.org](http://drupal.org)
+
 [AntiochCollege.org](http://antiochcollege.org) was built on a platform
 called [Drupal](http://drupal.org/). You may have heard of it referred
-to as a Content Management System (or CMS). Basically it's piece of software that handles a lot of the
-heavy lifting of making complicated websites, so all you have to do is
-type in the write box and everything just works. 
+to as a Content Management System (or CMS). Basically it's piece of software that handles a lot of the heavy lifting of making complicated websites, so all you have to do is type in the right box and everything just works.
 
