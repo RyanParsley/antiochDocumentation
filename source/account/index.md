@@ -8,10 +8,7 @@ Use your Antioch email address on this [sign in](http://antiochcollege.org/user)
 
 ## Password Recovery
 
-If you have not set a password yet
-or forget your password you can reset it yourself by visiting the
-[password recovery](http://antiochcollege.org/user/password) page.
-
+If you have not set a password yet or forget your password, you can reset it yourself by visiting the [password recovery](http://antiochcollege.org/user/password) page.
 
 ## Don't have an account?
 
