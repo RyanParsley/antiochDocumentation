@@ -25,7 +25,10 @@
       %aside{:class => "large-3 columns large-offset-1"}
         %h2 Categories
         %ul.side-nav
-          %li=link_to "Account", "/account", :class => "#{active?('account')}"
+          %li
+            =link_to "Account", "/account", :class => "#{active?('account')}"
+            %ul
+              %li=link_to "Account Administration", "/account/administration", :class => "#{active?('administration')}"
           %li
             =link_to "Content", "/content", :class => "#{active?('content')}"
             %ul

@@ -1,0 +1,2 @@
+# Adding a new user
+Visit the ["People" administration page](http://antiochcollege.org/admin/people). Click "Add user" and fill in the Main profile. If the new user should be listed on the [college directory](http://antiochcollege.org/college-directory) be sure to select the "staff" role. If they should have a faculty profile on the [faculty listing](http://antiochcollege.org/academics/faculty), be sure to select the "faculty" role.
